@@ -1,5 +1,8 @@
 .section-advantage {
   padding-top: 94px;
+  @media screen and (max-width: 500px) {
+    background-color: blue;
+  }
 }
 .advantages {
   display: flex;

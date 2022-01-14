@@ -799,6 +799,12 @@ body {
   padding-top: 94px;
 }
 
+@media screen and (max-width: 500px) {
+  .section-advantage {
+    background-color: blue;
+  }
+}
+
 .advantages {
   display: -webkit-box;
   display: -ms-flexbox;

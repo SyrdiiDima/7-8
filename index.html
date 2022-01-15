@@ -11,21 +11,18 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <!-- <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
-    /> -->
+    
     <link rel="stylesheet" href="./css/main.min.css">
 
   </head>
   <body>
    
     
-      <header class="header">
-         
+      
+    <header class="header">
+       <div class="container">
            <section class="section-header">
-             <div class="container">
-               <div class="header">
+
         <a href="/" class="logo"><span class="logo__text">Web</span>Studio</a>
         <nav class="nav-container">
           <ul class="site-nav">
@@ -65,9 +62,9 @@
           </li>
         </ul>
         </div>
-        </div>
-        </div>
+        
         </section>
+        </div>
         
       </header>
 
@@ -274,11 +271,19 @@
             <h2 class="section-title">Наша команда</h2>
             <div class="comand">
               <div class="comand__team-items">
-                <img
-                  src="./images/people1.jpg"
+                <picture>
+                  <source media = '(min-width:1200px)' srcset="./images/image-desktop/team-one.jpg 1x, /images/image-desktop/team-one@2x.jpg 2x">
+                  <source media = '(min-width:768px)' srcset="./images/image-tablet/team-one.jpg 1x, /images/image-tablet/team-one@2x.jpg 2x">
+                  <source media = '(min-width:480px)' srcset="./images/image-mobile/team-one.jpg 1x, /images/image-mobile/team-one@2x.jpg 2x">
+                
+                 <img
+                  src="/images/image-desktop/team-one.jpg"
                   alt="Игорь Демьяненко Product Designer"
-                  width="270"
+                  width="" 
+                  
                 />
+                </picture>
+                
                 <div class="comand__content-team">
                   <h3 class="comand__name">Игорь Демьяненко</h3>
                   <p class="comand__name-text">Product Designer</p>
@@ -318,11 +323,16 @@
               </div>
 
               <div class="comand__team-items">
+                <picture> 
+                  <source media = '(min-width:1200px)' srcset="./images/image-desktop/team-two.jpg 1x, /images/image-desktop/team-two@2x.jpg 2x">
+                  <source media = '(min-width:768px)' srcset="./images/image-tablet/team-two.jpg 1x, /images/image-tablet/team-two@2x.jpg 2x">
+                  <source media = '(min-width:480px)' srcset="./images/image-mobile/team-two.jpg 1x, /images/image-mobile/team-two@2x.jpg 2x">
                 <img
-                  src="./images/people2.jpg"
+                  src="./images/image-desktop/team-two.jpg"
                   alt="Ольга Репина Frontend Developer"
-                  width="270"
+                  width=""
                 />
+                </picture>
                 <div class="comand__content-team">
                   <h3 class="comand__name">Ольга Репина</h3>
                   <p class="comand__name-text">Frontend Developer</p>
@@ -362,11 +372,17 @@
                             </div>
 
               <div class="comand__team-items">
-                <img
-                  src="./images/people3.jpg"
+                <picture>
+                  <source media = '(min-width:1200px)' srcset="./images/image-desktop/team-three.jpg 1x, /images/image-desktop/team-three@2x.jpg 2x">
+                  <source media = '(min-width:768px)' srcset="./images/image-tablet/team-three.jpg 1x, /images/image-tablet/team-three@2x.jpg 2x">
+                  <source media = '(min-width:480px)' srcset="./images/image-mobile/team-three.jpg 1x, /images/image-mobile/team-three@2x.jpg 2x">
+                  <img
+                  src="./images/image-desktop/team-three.jpg"
                   alt="Николай Тарасов Marketing"
-                  width="270"
+                  width=""
                 />
+                </picture>
+                
                 <div class="comand__content-team">
                   <h3 class="comand__name">Николай Тарасов</h3>
                   <p class="comand__name-text">Marketing</p>
@@ -406,11 +422,17 @@
               </div>
 
               <div class="comand__team-items">
-                <img
-                  src="./images/people4.jpg"
+                <picture>
+                  <source media = '(min-width:1200px)' srcset="./images/image-desktop/team-four.jpg 1x, /images/image-desktop/team-four@2x.jpg 2x">
+                  <source media = '(min-width:768px)' srcset="./images/image-tablet/team-four.jpg 1x, /images/image-tablet/team-four@2x.jpg 2x">
+                  <source media = '(min-width:480px)' srcset="./images/image-mobile/team-four.jpg 1x, /images/image-mobile/team-four@2x.jpg 2x">
+                 <img
+                  src="./images/image-desktop/team-four.jpg"
                   alt="Михаил Ермаков UI Designer"
-                  width="270"
+                  width=""
                 />
+                </picture>
+                
                 <div class="comand__content-team">
                   <h3 class="comand__name">Михаил Ермаков</h3>
                   <p class="comand__name-text">UI Designer</p>

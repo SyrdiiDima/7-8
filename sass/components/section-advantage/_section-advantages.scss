@@ -1,39 +1,88 @@
-.section-advantage {
-  padding-top: 94px;
-
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
 }
+
+.section-advantage {
+  // padding-top: 94px;
+
+  @media screen and (min-width: 480px) {
+    padding-top: 60px;
+  }
+}
+
 .advantages {
-  display: flex;
+  // display: flex;
 
   &__item {
-    width: 270px;
+    // width: 270px;
   }
   &__item:not(:last-child) {
     margin-right: 30px;
   }
   &__title {
-    color: var(--primary-text-color);
-    font-family: Roboto;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 1.14;
-    text-transform: uppercase;
-    margin-bottom: 10px;
+    // color: var(--primary-text-color);
+    // font-family: Roboto;
+    // font-size: 14px;
+    // font-style: normal;
+    // font-weight: 700;
+    // line-height: 1.14;
+    // text-transform: uppercase;
+    // margin-bottom: 10px;
+    @media screen and (min-width: 480px) {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 1.14;
+      text-align: center;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+      padding-top: 30px;
+      color: #212121;
+    }
   }
   &__text {
-    color: var(--secondly-text-color);
-    font-family: Roboto;
-    font-size: 14px;
-    line-height: 1.72;
+    // color: var(--secondly-text-color);
+    // font-family: Roboto;
+    // font-size: 14px;
+    // line-height: 1.72;
+    @media screen and( min-width:480px) {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 1.71;
+
+      letter-spacing: 0.03em;
+      padding-top: 10px;
+      padding-bottom: 30px;
+      text-align: justify;
+      color: $secondly-text-color;
+    }
   }
   &__bag {
-    width: 270px;
-    height: 120px;
+    // width: 270px;
+    // height: 120px;
+    // margin-bottom: 30px;
+
     background-color: #f5f4fa;
-    margin-bottom: 30px;
     border-radius: 4px;
-    padding: 25px 100px;
+    // padding: 25px 100px;
+
+    @media screen and (min-width: 480px) {
+      width: 450px;
+      height: 120px;
+      padding: 25px 191px;
+    }
   }
   &__icon {
     height: 70px;

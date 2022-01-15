@@ -1,9 +1,13 @@
 .header {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  border-bottom: 1px solid #ececec;
 }
 .section-header {
-  border-bottom: 1px solid #ececec;
+  display: flex;
+  align-items: center;
+  // justify-content: center;
   min-height: 80px;
+
+  @media screen and (min-width: 480px) {
+    height: 60px;
+  }
 }

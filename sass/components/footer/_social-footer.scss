@@ -3,10 +3,8 @@
   // padding-top: 72px;
   // padding-bottom: 100px;
 
-  @media screen and (min-width: 480px) {
-    padding-top: 60px;
-    padding-bottom: 60px;
-  }
+  padding-top: 60px;
+
   &__title {
     color: $white-color;
     font-family: Roboto;
@@ -18,17 +16,14 @@
     text-transform: uppercase;
     // padding-left: 70px;
 
-    @media screen and (min-width: 480px) {
-      text-align: center;
-    }
+    text-align: center;
   }
 }
 
 .social-network-list--footer {
   // padding: 20px 0px 30px 70px;
-  @media screen and (min-width: 480px) {
-    padding-top: 20px;
-  }
+
+  padding-top: 20px;
 }
 
 .social-network-list__link--gray-backround {

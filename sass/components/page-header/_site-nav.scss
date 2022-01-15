@@ -1,13 +1,20 @@
 .nav-container {
-  display: flex;
-  margin-right: 305px;
+  display: none;
+  // margin-right: 305px;
+
+  @media screen and (min-width: 768px) {
+    display: flex;
+  }
 }
 
 .site-nav {
   display: flex;
 
   &__item:not(:last-child) {
-    margin-right: 30px;
+    // margin-right: 30px;
+    @media screen and (min-width: 768px) {
+      margin-right: 50px;
+    }
   }
 }
 .site-nav__link {
@@ -26,13 +33,6 @@
   &:focus {
     color: $accent-color;
     cursor: pointer;
-  }
-
-  @media screen and (min-width: 480px) {
-    display: none;
-  }
-  @media screen and (min-width: 768px) {
-    display: block;
   }
 }
 

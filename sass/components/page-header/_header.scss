@@ -5,9 +5,10 @@
   display: flex;
   align-items: center;
   // justify-content: center;
-  min-height: 80px;
+  height: 60px;
+  // min-height: 80px;
 
-  @media screen and (min-width: 480px) {
-    height: 60px;
+  @media screen and (min-width: 768px) {
+    height: 80px;
   }
 }

@@ -14,10 +14,8 @@
 .section-advantage {
   // padding-top: 94px;
 
-  @media screen and (min-width: 480px) {
-    padding-top: 60px;
-    padding-bottom: 60px;
-  }
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .advantages {
@@ -38,37 +36,35 @@
     // line-height: 1.14;
     // text-transform: uppercase;
     // margin-bottom: 10px;
-    @media screen and (min-width: 480px) {
-      font-family: Roboto;
-      font-style: normal;
-      font-weight: bold;
-      font-size: 14px;
-      line-height: 1.14;
-      text-align: center;
-      letter-spacing: 0.03em;
-      text-transform: uppercase;
-      padding-top: 30px;
-      color: #212121;
-    }
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    padding-top: 30px;
+    color: #212121;
   }
   &__text {
     // color: var(--secondly-text-color);
     // font-family: Roboto;
     // font-size: 14px;
     // line-height: 1.72;
-    @media screen and( min-width:480px) {
-      font-family: Roboto;
-      font-style: normal;
-      font-weight: normal;
-      font-size: 14px;
-      line-height: 1.71;
 
-      letter-spacing: 0.03em;
-      padding-top: 10px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;
 
-      text-align: justify;
-      color: $secondly-text-color;
-    }
+    letter-spacing: 0.03em;
+    padding-top: 10px;
+
+    text-align: justify;
+    color: $secondly-text-color;
   }
   &__bag {
     // width: 270px;
@@ -79,11 +75,9 @@
     border-radius: 4px;
     // padding: 25px 100px;
 
-    @media screen and (min-width: 480px) {
-      width: 450px;
-      height: 120px;
-      padding: 25px 191px;
-    }
+    width: 450px;
+    height: 120px;
+    padding: 25px 191px;
   }
   &__icon {
     height: 70px;

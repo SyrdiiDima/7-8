@@ -13,6 +13,14 @@
   height: 649px;
   top: 93px;
   left: 15px;
+
+  @media screen and (min-width: 768px) {
+    top: 208px;
+    left: 159px;
+
+    // width: 450px;
+    // height: 649px;
+  }
 }
 
 .modal__form {

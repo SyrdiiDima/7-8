@@ -1,8 +1,14 @@
 .footer-window {
-  align-items: flex-start;
-  padding-top: 72px;
-  padding-bottom: 94px;
+  // align-items: flex-start;
+  padding-top: 28px;
+  // padding-bottom: 94px;
   // margin-left: 93px;
+  padding-bottom: 60px;
+  @media screen and (min-width: 768px) {
+    padding-top: 247px;
+    padding-right: 137px;
+    padding-left: 151px;
+  }
 
   &__title {
     margin-bottom: 20px;
@@ -21,6 +27,9 @@
   &__form {
     // display: flex;
     align-items: center;
+
+    @media screen and (min-width: 768px) {
+    }
   }
 }
 
@@ -32,7 +41,7 @@
   background-color: $footer-color;
   height: 50px;
   // width: 358px;
-  margin-right: 12px;
+  // margin-right: 12px;
   padding-left: 16px;
   padding-top: 15px;
   padding-bottom: 15px;

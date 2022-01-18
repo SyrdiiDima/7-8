@@ -2,6 +2,7 @@
   background-color: $footer-color;
 
   text-align: center;
+  position: relative;
 }
 
 .general-footer {
@@ -15,6 +16,13 @@
   padding-top: 60px;
 
   text-align: center;
+
+  @media screen and (min-width: 768px) {
+    position: absolute;
+    content: "";
+    // top: 60px;
+    left: 115px;
+  }
 
   &__logo {
     margin-bottom: 20px;

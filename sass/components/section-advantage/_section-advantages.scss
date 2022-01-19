@@ -12,21 +12,21 @@
 }
 
 .section-advantage {
-  // padding-top: 94px;
-
   padding-top: 60px;
   padding-bottom: 60px;
+  @media screen and (min-width: 1200px) {
+    padding-top: 94px;
+    padding-bottom: 0;
+  }
 }
 
 .advantages {
-  // display: flex;
   display: flex;
   flex-wrap: wrap;
   margin-top: -15px;
   margin-left: -30px;
 
   &__item {
-    // width: 270px;
     display: inline-block;
 
     margin-top: 15px;
@@ -38,18 +38,13 @@
         margin-right: 30px;
       }
     }
+
+    @media screen and (min-width: 1200px) {
+      width: 270px;
+    }
   }
 
   &__title {
-    // color: var(--primary-text-color);
-    // font-family: Roboto;
-    // font-size: 14px;
-    // font-style: normal;
-    // font-weight: 700;
-    // line-height: 1.14;
-    // text-transform: uppercase;
-    // margin-bottom: 10px;
-
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
@@ -64,13 +59,19 @@
     @media screen and (min-width: 768px) {
       text-align: left;
     }
+    @media screen and (min-width: 1200px) {
+      color: var(--primary-text-color);
+      font-family: Roboto;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 1.14;
+      text-transform: uppercase;
+      margin-bottom: 10px;
+      text-align: center;
+    }
   }
   &__text {
-    // color: var(--secondly-text-color);
-    // font-family: Roboto;
-    // font-size: 14px;
-    // line-height: 1.72;
-
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -83,22 +84,33 @@
 
     text-align: justify;
     color: $secondly-text-color;
+    @media screen and (min-width: 1200px) {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 1.71;
+
+      letter-spacing: 0.03em;
+
+      color: $secondly-text-color;
+    }
   }
   &__bag {
-    // width: 270px;
-    // height: 120px;
-    // margin-bottom: 30px;
-
     background-color: #f5f4fa;
     border-radius: 4px;
-    // padding: 25px 100px;
 
-    // width: 450px;
     height: 120px;
     padding: 25px 191px;
 
     @media screen and (min-width: 768px) {
       padding: 25px 144px;
+    }
+
+    @media screen and (min-width: 1200px) {
+      padding: 25px 100px;
+      width: 270px;
+      height: 120px;
     }
   }
   &__icon {

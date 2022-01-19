@@ -3,25 +3,31 @@
 
   text-align: center;
   position: relative;
+  @media screen and (min-width: 1200px) {
+  }
 }
 
 .general-footer {
-  // display: flex;
+  @media screen and (min-width: 1200px) {
+    display: flex;
+  }
 }
 
 .footer-info {
-  // padding-top: 60px;
-  // padding-bottom: 60px;
-
   padding-top: 60px;
 
   text-align: center;
 
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
     position: absolute;
     content: "";
     // top: 60px;
     left: 115px;
+
+    @media screen and (min-width: 1200px) {
+      padding-top: 60px;
+      padding-bottom: 60px;
+    }
   }
 
   &__logo {
@@ -50,7 +56,10 @@
     line-height: 1.71;
     margin-bottom: 9px;
     letter-spacing: 0.03em;
-    // width: 231px;
+
+    @media screen and( min-width:1200px) {
+      width: 231px;
+    }
   }
   &__item {
     margin-bottom: 9px;

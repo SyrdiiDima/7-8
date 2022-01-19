@@ -1,13 +1,17 @@
 .footer-window {
-  // align-items: flex-start;
   padding-top: 28px;
-  // padding-bottom: 94px;
-  // margin-left: 93px;
+
   padding-bottom: 60px;
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
     padding-top: 247px;
     padding-right: 137px;
     padding-left: 151px;
+  }
+  @media screen and (min-width: 1200px) {
+    padding-bottom: 94px;
+    padding-top: 72px;
+    margin-left: 93px;
+    align-items: flex-start;
   }
 
   &__title {
@@ -23,12 +27,17 @@
     color: $white-color;
 
     text-align: center;
+    @media screen and (min-width: 1200px) {
+      text-align: start;
+    }
   }
   &__form {
     // display: flex;
     align-items: center;
 
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 1200px) {
+      display: flex;
+      align-items: center;
     }
   }
 }
@@ -40,8 +49,7 @@
   border-radius: 4px;
   background-color: $footer-color;
   height: 50px;
-  // width: 358px;
-  // margin-right: 12px;
+
   padding-left: 16px;
   padding-top: 15px;
   padding-bottom: 15px;
@@ -52,13 +60,17 @@
   font-size: 16px;
   line-height: 1.25;
 
-  // display: flex;
   align-items: center;
   letter-spacing: 0.03em;
 
   color: rgba(255, 255, 255, 0.6);
 
   width: 100%;
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    width: 358px;
+    margin-right: 12px;
+  }
 }
 .button-subscribe {
   position: relative;
@@ -82,6 +94,9 @@
   padding-right: 62px;
 
   margin-top: 20px;
+  @media screen and (min-width: 1200px) {
+    margin-top: 0;
+  }
 
   &__icon {
     position: absolute;

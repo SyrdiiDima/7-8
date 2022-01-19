@@ -1239,7 +1239,7 @@ body {
   .comand__team-items {
     width: calc((100vw - 2 * 30px) / 2);
   }
-  .comand__team-items .comand__team-items:nth-child(odd) {
+  .comand__team-items:nth-child(odd) {
     margin-right: 30px;
   }
 }

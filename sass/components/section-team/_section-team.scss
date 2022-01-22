@@ -77,11 +77,15 @@
 
 .comand__name {
   font-family: Roboto;
-  font-size: 16px;
   font-style: normal;
   font-weight: 500;
+  font-size: 16px;
   line-height: 1.18;
-  margin-bottom: 10px;
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: $primery-text-color;
 
   &-text {
     color: $secondly-text-color;

@@ -54,13 +54,13 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
     padding-top: 30px;
-    color: #212121;
+    color: $primery-text-color;
 
     @media screen and (min-width: 768px) {
       text-align: left;
     }
     @media screen and (min-width: 1200px) {
-      color: var(--primary-text-color);
+      color: $primery-text-color;
       font-family: Roboto;
       font-size: 14px;
       font-style: normal;

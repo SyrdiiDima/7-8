@@ -1,5 +1,6 @@
 .header {
   border-bottom: 1px solid #ececec;
+  position: relative;
 }
 .section-header {
   display: flex;
@@ -14,6 +15,5 @@
 
   @media screen and (min-width: 1200px) {
     height: 80px;
-    justify-content: center;
   }
 }

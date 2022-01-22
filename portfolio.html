@@ -21,25 +21,41 @@
   <body>
 
 
-    <header class="header">
-           <div class="container">
+     <header class="header">
+       <div class="container">
            <section class="section-header">
 
         <a href="/" class="logo"><span class="logo__text">Web</span>Studio</a>
+        
+        
+           <button type="button" class="menu-button" aria-expanded="false" data-menu-button>
+            <svg width ='40' height='40' aria-label="Переключатель мобильного меню">
+             
+              <use class="icon-menu" href = './images/menu-mobile.svg#icon-menu'>  </use>
+              <use class="icon-cross" href = './images/menu-mobile.svg#icon-cross'>  </use>
+
+            </svg>
+
+          </button>
+
+
+          <div class="menu-container" data-menu> 
         <nav class="nav-container">
-          <ul class="site-nav">
-            <li class="site-nav__item" ><a href="/index.html" class="site-nav__link" >Студия</a></li>
+             <ul class="site-nav">
+            <li class="site-nav__item" ><a href="./index.html" class="site-nav__link" >Студия</a></li>
             <li class="site-nav__item">
-              <a href="" class="site-nav__link" id="portfolio">Портфолио</a>
+              <a href="/" class="site-nav__link"id="portfolio">Портфолио</a>
             </li>
             <li class="site-nav__item"><a href="" class="site-nav__link">Контакты</a></li>
           </ul>
+
+         
         </nav>
         <div class="auth-container">
         <ul class="auth-nav">
-          <li class="auth-nav__item">
+          <li class="auth-nav__item-mail">
             
-            <a href="mailto:info@devstudio.com" class="auth-nav__link"
+            <a href="mailto:info@devstudio.com" class="auth-nav__mail"
               ><svg class="auth-nav__icon-mail">
                 <use href = "./images/icons.svg#icon-mailto">
 
@@ -50,9 +66,9 @@
             >
             
           </li>
-          <li class="auth-nav__item">
+          <li class="auth-nav__item-number">
             
-            <a href="tel:+380961111111" class="auth-nav__link">
+            <a href="tel:+380961111111" class="auth-nav__number">
               <svg class="auth-nav__icon-smartphone">
                 <use href= "./images/icons.svg#icon-smartphone"></use>
               </svg>
@@ -62,11 +78,20 @@
           </li>
         </ul>
         </div>
+          <ul class="menu-social-link">
+            <li class="menu-item"> <a href="" class="menu-link" >Instagram</a></li>
+            <li class="menu-item"><a href="" class="menu-link" >Twitter</a></li>
+            <li class="menu-item"><a href="" class="menu-link" >Facebook</a></li>
+            <li class="menu-item"><a href="" class="menu-link" id="no-dash">LinkedIn</a></li>
+          </ul>
+
+        </div>
+        
         
         </section>
-        </div>      
+        </div>
+        
       </header>
-
      
         <main>
            <div class="section-portfolio">
@@ -410,5 +435,6 @@
     </div>
 
     </div>
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>

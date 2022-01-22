@@ -97,4 +97,8 @@ a {
 
     color: $secondly-text-color;
   }
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
 }

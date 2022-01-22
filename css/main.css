@@ -603,7 +603,7 @@ a {
 }
 
 .site-nav__link {
-  color: var(--primary-text-color);
+  color: #212121;
   text-decoration: none;
   font-family: Roboto;
   font-size: 14px;
@@ -742,6 +742,10 @@ a {
     display: -ms-flexbox;
     display: flex;
     color: #757575;
+  }
+  :hover,
+  :focus {
+    color: #2196f3;
   }
 }
 
